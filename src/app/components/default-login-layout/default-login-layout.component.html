@@ -1,17 +1,24 @@
 <main>
 
 
-<section>
+<section class="form-section">
 <img src="red.png" width="150px" height="150px">
-<h2>Red lynx</h2>
-<button></button>
-<div><span>or</span></div>
-<button></button>
+<h2>{{title}}</h2>
+<ng-content ></ng-content>
+
+<div class="btn-wrapper">
+    <button class="btn-primary">{{primaryBtnText}}</button>
+    <div class="divider">
+        <span>or</span>
+    </div>
+    <button class="btn-secondary">{{secondaryBtnText}}</button>
+</div>
+
 </section>
 
 
-<section>
-    <h1>Red lynx</h1>
+<section class="main-section">
+    <h1>red</h1>
     <img src="lynx.png" width="500px" height="500px">
 </section>
 
