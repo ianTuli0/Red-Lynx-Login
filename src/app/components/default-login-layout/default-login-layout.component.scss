@@ -1,4 +1,4 @@
-@import "../../styles/variables.scss";
+@use '../../styles/variables.scss' as *;
 
 main {
    display: flex;
@@ -107,6 +107,10 @@ main {
                 border: solid 1px;
                 border-color: $primary-color;
                 color: $primary-color; 
+                }
+
+                &:disabled {
+                    opacity: 0.8
                 }
     
             }
