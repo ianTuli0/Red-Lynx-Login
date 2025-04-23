@@ -1,0 +1,53 @@
+<app-default-login-layout
+title="Sign in Red lynx team"
+primaryBtnText = "Signup Now"
+secondaryBtnText = "Login Now"
+(submit)="submit()"
+(navigate)="navigate()"
+[disablePrimaryBtn]="!signupForm.valid"
+>
+    <form [formGroup]="signupForm">
+        <app-primary-input
+        formControlName="name"
+        inputName="name"
+        type="text"
+        label="Your name"
+        placeholder="Yourname"
+        >
+            <img src="msg.svg" alt="">
+        </app-primary-input>
+
+
+        <app-primary-input
+        formControlName="email"
+        inputName="email"
+        type="email"
+        label="Email"
+        placeholder="youremail@email.com"
+        >
+            <img src="msg.svg" alt="">
+        </app-primary-input>
+
+        <app-primary-input
+        formControlName="password"
+        inputName="password"
+        type="password"
+        label="Your Password"
+       
+        >
+            <img src="cad.svg" alt="">
+        </app-primary-input>
+
+        <app-primary-input
+        formControlName="passwordConfirm"
+        inputName="passwordConfirm"
+        type="password"
+        label="Confirm Your Password"
+       
+        >
+            <img src="cad.svg" alt="">
+        </app-primary-input>
+       
+     
+    </form>
+</app-default-login-layout>
