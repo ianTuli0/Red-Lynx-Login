@@ -1,4 +1,4 @@
-# 🦾 LYNX RED - Página de Login com Angular
+# 🦾 RED LYNX - Página de Login com Angular
 
 <img src="https://github.com/user-attachments/assets/e20b3799-52fc-47d9-8ace-75d26ea21c1e" alt="fundo" width="50%" />
 
