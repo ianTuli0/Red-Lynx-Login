@@ -16,26 +16,49 @@ main {
         justify-content: center;
     }
 
+    h1{
 
-    .main-section {
-        gap: 8px;
-        flex-grow: 1;
-        background-color: $background;
-   
     }
 
+    .lynx-img {
+      margin-top: 160px;
+    }
+
+    .main-section {
+      gap: 8px;
+      width: 100vw;
+      height: 100vh;
+      background-image: url('/fundo.png');
+      background-size: cover;
+      background-position: center;
+      display: flex;
+  }
+
     .form-section {
-        display: flex;
-        padding: 0 35px;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        flex-grow: 0.3;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+  
+      // Deixe um máximo, mas use porcentagem ou vw para responsividade
+      width: 35vw; // Ou use % conforme necessário
+      max-width: 550px;
+      min-width: 320px;
+  
+      padding: 0 2rem;
+  
+      background-image: url('/form-section.png');
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+  
+      img {
+          margin-bottom: 25px;
+          max-width: 100%;
+          height: auto;
+      }
         
-        img {
-            margin-bottom: 30px;
-        }
-        
+
 
         h2 {
             font-size: 20px;
@@ -65,7 +88,7 @@ main {
                   text-transform: uppercase;
                   font-size: 14px;
                   font-weight: 400;
-                  color: $background;
+                  color: $gray-secondary;
                   position: relative;
                   z-index: 1;
                 }
@@ -81,7 +104,7 @@ main {
             div {
                 flex-grow: 1;
                 height: 1px;
-                background-color: $background;
+                background-color: gray;
                 
             }
             
@@ -119,4 +142,5 @@ main {
      
     }
 }
+
 

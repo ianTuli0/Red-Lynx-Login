@@ -1,30 +1,24 @@
 <main>
-
-
-<section class="form-section">
-<img src="red.png" width="150px" height="150px">
-<h2>{{title}}</h2>
-<ng-content ></ng-content>
-
-<div class="btn-wrapper">
-    <button class="btn-primary" 
-    (click)="submit()"
-   [disabled]="disablePrimaryBtn" >
-    {{primaryBtnText}}
-    </button>
-    <div class="divider">
-        <span>or</span>
-    </div>
-    <button class="btn-secondary" (click)="navigate()">{{secondaryBtnText}}</button>
-</div>
-
-</section>
-
-
-<section class="main-section">
-    <h1>red</h1>
-    <img src="lynx.png" width="500px" height="500px">
-</section>
-
-
-</main>
+    <section class="form-section">
+      <img src="red.png" width="150px" height="150px">
+      <h2>{{title}}</h2>
+      <ng-content></ng-content>
+  
+      <div class="btn-wrapper">
+        <button class="btn-primary" 
+                (click)="submit()"
+                [disabled]="disablePrimaryBtn">
+          {{primaryBtnText}}
+        </button>
+        <div class="divider">
+          <span>or</span>
+        </div>
+        <button class="btn-secondary" (click)="navigate()">{{secondaryBtnText}}</button>
+      </div>
+    </section>
+  
+    <section class="main-section background-lynx">
+    
+      </section>
+  </main>
+  
