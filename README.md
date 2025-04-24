@@ -1,6 +1,7 @@
 # 🦾 LYNX RED - Página de Login com Angular
 
-![Lynx Red](./fundo.png)
+<img src="https://github.com/user-attachments/assets/e20b3799-52fc-47d9-8ace-75d26ea21c1e" alt="fundo" width="50%" />
+
 
 ## 📌 Sobre o Projeto
 
@@ -21,4 +22,6 @@ O nome e a identidade visual do projeto — representada pelo lince musculoso �
 - Estilização moderna e responsiva
 - Estrutura de código modular e reutilizável
 
-## 🛠️ Como Rodar o Projeto
+## 🛠️ Projeto Rodando no Vercel
+
+https://red-lynx-login.vercel.app/login
